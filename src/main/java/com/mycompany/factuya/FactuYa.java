@@ -19,5 +19,6 @@ public class FactuYa {
     }
     public void AgregarCliente(String nombre){
         System.out.print("Cliente agregado: " + nombre);
+        System.out.print("Se eliminara el cliente luego de 9 dias: " + nombre);
     }
 }
